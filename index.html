@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Search Example</title>
+  <meta name="description" content="Search Example">
+  <meta name="author" content="Jeffrey">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="links">
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+            <a href="">Link 4</a>
+            <a href="">Link 5</a>
+        </div>
+
+        <div class="links">
+            <input id="search_term" type="text" placeholder="Search Articles"></input>
+            <button onclick="searchItem()">Search</button>
+        </div>        
+    </div>
+    <header>
+        <h1>Generic Header Text</h1>
+    </header>
+    <div class="main">
+        <div class="article">
+            <h2>Article 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ex lacus, viverra quis dapibus et, aliquam at erat. Nullam sagittis volutpat ex, et facilisis metus vehicula ut. Morbi tristique diam eleifend eros fermentum vehicula. In ante mauris, vulputate vitae pellentesque vel, faucibus elementum eros. Etiam mollis, est dictum aliquet pharetra, tortor eros consequat augue, et rutrum lacus magna ut felis. Etiam et leo in tellus cursus pellentesque. Vivamus varius nunc ut tellus lobortis laoreet. Aliquam quis orci vitae lorem lacinia dapibus vitae vel dui. Suspendisse potenti. Nunc quis tellus ultrices diam maximus aliquet. Maecenas pulvinar egestas gravida. Sed vel condimentum tellus. Cras auctor faucibus cursus. Aliquam imperdiet odio placerat sapien iaculis, id tincidunt sem sagittis. Nam metus elit, tincidunt ut maximus vitae, condimentum ut nisi.</p>
+        </div>
+        <div class="article">
+            <h2>Article 2</h2>
+            <p>Morbi mauris est, accumsan vel diam sit amet, dapibus maximus eros. Nam sollicitudin lacus sapien, ac auctor sapien pretium in. Sed massa lectus, pharetra nec luctus faucibus, vehicula a purus. Donec massa massa, vehicula in tellus pretium, ornare bibendum diam. Duis gravida lacus at risus consectetur luctus. Quisque non condimentum dolor, eget efficitur elit. Vivamus quis ligula euismod, iaculis magna sit amet, pellentesque mauris. Praesent id fringilla enim, ut molestie augue. Aliquam quis tellus est. Duis vel eros in neque tincidunt consequat ut aliquet ante. Vestibulum eu eleifend velit. Nullam feugiat volutpat faucibus. Sed tincidunt, risus nec aliquet luctus, turpis eros mattis arcu, ac dapibus massa enim sit amet tortor.</p>
+        </div>
+        <div class="article">
+            <h2>Article 3</h2>
+            <p>Duis sed ex non velit imperdiet efficitur quis at velit. Integer vitae feugiat elit. Pellentesque condimentum, felis at fermentum pulvinar, metus nisi imperdiet dolor, at luctus odio sem nec erat. Phasellus vel urna dui. Aenean fringilla imperdiet gravida. Duis eget dui aliquet, porta magna nec, fringilla orci. Nullam lobortis enim non diam dignissim, ac venenatis nibh sagittis. Maecenas vehicula tempus dolor ac hendrerit. Aliquam aliquam vulputate tincidunt.</p>
+        </div>
+        <div class="article">
+            <h2>Article 4</h2>
+            <p>Sed efficitur augue eget aliquet bibendum. Nullam fermentum, leo at venenatis mattis, libero diam rhoncus nisl, eu posuere augue orci at erat. Sed mollis orci et tortor lacinia malesuada. Vivamus quam risus, scelerisque a nunc et, bibendum dignissim urna. Nam mollis tristique accumsan. Sed quis feugiat ligula. Suspendisse potenti. Vestibulum in orci vitae risus condimentum varius. Etiam euismod sodales egestas. Suspendisse accumsan quam eget nisi porttitor pellentesque. Etiam tincidunt nec diam a vehicula. Duis neque mauris, suscipit nec tempor iaculis, tempus eget sem. In ornare turpis id neque molestie facilisis. Praesent ut maximus nulla. Ut vitae vulputate magna.</p>
+        </div>
+        <div class="article">
+            <h2>Article 5</h2>
+            <p>Proin non tortor lacinia, vestibulum augue a, semper sem. Aenean quis porttitor lorem. Nunc tristique, tortor sed facilisis pharetra, justo tortor laoreet massa, in consequat nisl diam tempus metus. Fusce nec nisi volutpat, scelerisque lectus vel, ornare nisl. Suspendisse nibh mi, feugiat in ultricies et, malesuada a lacus. Nullam nec justo tincidunt, fermentum urna id, aliquam lacus. Suspendisse et nulla ornare, consectetur turpis et, porta nunc. Donec venenatis ultricies enim et mattis. Integer id cursus tellus. Maecenas finibus elit suscipit lectus luctus euismod. Proin malesuada blandit nulla, non pulvinar metus malesuada quis. Sed luctus, elit vel tincidunt fringilla, augue nulla malesuada urna, viverra posuere purus sapien ac odio. Pellentesque sagittis placerat dapibus. Nulla fringilla consequat sollicitudin.</p>
+        </div>
+        <div class="article">
+            <h2>Article 6</h2>
+            <p>Proin non tortor lacinia, vestibulum augue a, semper sem. Aenean quis porttitor lorem. Nunc tristique, tortor sed facilisis pharetra, justo tortor laoreet massa, in consequat nisl diam tempus metus. Fusce nec nisi volutpat, scelerisque lectus vel, ornare nisl. Suspendisse nibh mi, feugiat in ultricies et, malesuada a lacus. Nullam nec justo tincidunt, fermentum urna id, aliquam lacus. Suspendisse et nulla ornare, consectetur turpis et, porta nunc. Donec venenatis ultricies enim et mattis. Integer id cursus tellus. Maecenas finibus elit suscipit lectus luctus euismod. Proin malesuada blandit nulla, non pulvinar metus malesuada quis. Sed luctus, elit vel tincidunt fringilla, augue nulla malesuada urna, viverra posuere purus sapien ac odio. Pellentesque sagittis placerat dapibus. Nulla fringilla consequat sollicitudin.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright 2020 Jeffrey C. Lu</p>
+    </footer>
+  <script src="index.js"></script>
+</body>
+</html>
