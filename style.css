@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    position: relative;
     text-align: center;
     height: 100px;
     border-bottom: 1px solid lightgray;
@@ -40,6 +41,10 @@ div.links button {
     margin-right: 30px;
 }
 
+.links button:nth-of-type(1) {
+    margin-right: 0px;
+}
+
 div.links button:hover {
     background-color: grey;
 }
@@ -48,7 +53,7 @@ div.main {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-content: center;
+    align-content: flex-start;
     height: 700px;
     border-bottom: 1px solid lightgray;
 }
